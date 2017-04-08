@@ -55,12 +55,10 @@
 		            <li class="active"><a href="#intro">Home</a></li>
 		            <li><a href="#skills">About</a></li>
 		            <li><a href="#portfolio">Portfolio</a></li>
-		            <li><a href="#contact">Contact</a></li>
 		            <li><a href="shahzar-ahmed.pdf">Resume</a></li>
 	          	</ul>
 		        <ul class="nav navbar-nav navbar-right navbar-social">
 		        	<li><a href="https://www.linkedin.com/in/shahzar-ahmed" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-		        	<li><a href="https://plus.google.com/+ShahzarAhmed" target="_blank"><i class="fa fa-google-plus"></i></a></li>
 		        	<li><a href="https://twitter.com/shazr00t" target="_blank"><i class="fa fa-twitter"></i></a></li>
 		        	<li><a href="https://github.com/shahzar" target="_blank"><i class="fa fa-github"></i></a></li>
 		        </ul>
@@ -105,38 +103,26 @@
 
 			<h2 class="section-title">Skills</h2>
 
-			<!-- Skillbar -->
-             <div class="row skillbar-wrapper">
-        		<div class="skillbar clearfix " data-percent="80%">
-	                <div class="skillbar-title" style=""><span>Android</span></div>
-	                <div class="skillbar-bar" style=""></div>
-	                <div class="skill-bar-percent">80%</div>
-	            </div>
-	            
-	            <div class="skillbar clearfix " data-percent="80%">
-	                <div class="skillbar-title" style=""><span>Java</span></div>
-	                <div class="skillbar-bar" style=""></div>
-	                <div class="skill-bar-percent">80%</div>
-	            </div>
-	            
-	            <div class="skillbar clearfix " data-percent="90%">
-	                <div class="skillbar-title" style=""><span>Html/Css</span></div>
-	                <div class="skillbar-bar" style=""></div>
-	                <div class="skill-bar-percent">90%</div>
-	            </div>
-	            
-	            <div class="skillbar clearfix " data-percent="60%">
-	                <div class="skillbar-title" style=""><span>Javascript</span></div>
-	                <div class="skillbar-bar" style=""></div>
-	                <div class="skill-bar-percent">60%</div>
-	            </div>
-
-	            <div class="skillbar clearfix " data-percent="40%">
-	                <div class="skillbar-title" style=""><span>NodeJS</span></div>
-	                <div class="skillbar-bar" style=""></div>
-	                <div class="skill-bar-percent">40%</div>
-	            </div>
-            </div> 
+			 <!--Skillset -->
+			<div>
+				<ul class="skillset-wrapper">
+					<li>Android</li>
+					<li>Java</li>
+					<li>Dagger</li>
+					<li>rxJava</li>
+					<li>Retrofit</li>
+					<li>REST Api</li>
+					<li>Firebase</li>
+					<li>NodeJs</li>
+					<li>Php</li>
+					<li>HTML/CSS</li>
+					<li>Javascript</li>
+					<li>Bootstrap</li>
+					<li>Adobe Photoshop</li>
+					<li>Linux</li>
+					<li>Git</li>
+				</ul>
+			</div>
 
 		</div>		<!--  Skills  -->
 	</div>
@@ -299,7 +285,6 @@
 				<ul>
 					<li><a href="https://www.linkedin.com/in/shahzar-ahmed" target="_blank"><i class="fa fa-linkedin fa-2x"></i></a></li>
 					<li><a href="https://twitter.com/shazr00t" target="_blank"><i class="fa fa-twitter fa-2x"></i></a></li>
-					<li><a href="https://plus.google.com/+ShahzarAhmed" target="_blank"><i class="fa fa-google-plus fa-2x"></i></a></li>
 					<li><a href="https://github.com/shahzar" target="_blank"><i class="fa fa-github fa-2x"></i></a></li>
 					
 				</ul>
@@ -356,6 +341,12 @@
                 },6000);
             });
         });
+
+		$(document).on('click.nav','.navbar-collapse.in',function(e) {
+			if( $(e.target).is('a') || $(e.target).is('button')) {
+				$(this).collapse('hide');
+			}
+		});
 
 		
 		
