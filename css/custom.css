@@ -122,6 +122,7 @@ body{
 .skillset-wrapper {
 	max-width: 800px;
 	margin: 0 auto;
+	padding: 0px;
 }
 
 .skillset-wrapper li {
