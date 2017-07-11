@@ -107,6 +107,28 @@ body{
   	filter: drop-shadow(0px 0px 3px #888);
 }
 
+.social-main li h6 {
+	color: #AAAAAA;
+}
+
+.download_resume {
+	width: 20%;
+	margin: 0px auto;
+	padding: 0px;
+}
+
+.download_resume a {
+	color: #CCC;
+	padding: 5px;
+	background: #FFF3;
+	display: block;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+.download_resume a h6{
+	margin: 5px 0px 5px 0px;
+}
 
 #skills{
 	height: 100%;
