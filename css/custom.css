@@ -145,6 +145,7 @@ body{
 	max-width: 800px;
 	margin: 0 auto;
 	padding: 0px;
+	margin-bottom: 60px;
 }
 
 .skillset-wrapper li {
@@ -190,7 +191,7 @@ body{
 }
 
 .showcase{
-	margin: 0px auto;
+	margin: 70px auto;
 }
 .grid-item{
 	border: 1px solid;
